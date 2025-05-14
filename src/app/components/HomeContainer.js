@@ -12,7 +12,7 @@ const HomeContainer = () => {
             <div className="hero-image">
                <Image 
                      src="/assets/foodiegoodieGirl-04.png" 
-                     width={400} 
+                     width={500} 
                      height={200} 
                      alt="banner" 
                      />
