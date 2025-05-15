@@ -15,6 +15,7 @@ const HomeContainer = () => {
                      width={500} 
                      height={200} 
                      alt="banner" 
+                     style={{ width: '90%', marginTop: '70px', marginLeft: '10px' }}
                      />
             </div>
             </section>
