@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono, Nunito } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/app/components/Navbar"; // todos los componentes deben tener mayus
+import Footer from "@/app/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +29,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${nunito.variable}${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+         <Navbar/> 
         {children}
+        <Footer/>
       </body>
     </html>
   );
