@@ -41,6 +41,7 @@ header {
   background-color: #C8E594;
   position: relative;
 }
+
 .nav_container{
   width: 95%;
   margin: 0 auto;
@@ -211,6 +212,7 @@ font-size: 1.2rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
+    margin-top: 5%;
     padding: 20px;
     max-width: 600px;
     text-align: center;
@@ -266,6 +268,8 @@ font-size: 1.2rem;
     position: relative;
     top: -45px;
 }
+
+
 @media screen and (max-width: 768px) {
     h1 {
       font-size: 2rem;
